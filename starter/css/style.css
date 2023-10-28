@@ -1,6 +1,25 @@
+
 * {
   box-sizing: border-box;
 }
+
+nav li {
+  align-items: ;
+
+}
+
+ul {
+
+}
+
+header .nav ul li {
+  list-style: none;
+}
+
+ul li a {
+
+}
+
 
 body {
   margin: 0;
