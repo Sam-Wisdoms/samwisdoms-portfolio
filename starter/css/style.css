@@ -1,5 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Poppins", "sans-serif";
+}
 
-* {
+header {
+  position: fix;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: rgb(0, 153, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: red;
+}
+
+.top-nav a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
+
+nav {
+ display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+}
+
+body {
+  height: 100vh;
+  line-height: 1.5;
+  background-color: none;
+}
+
+.hero-banner{
+  background-image: url(assets/images/02-hero-bg.jpg);
+  text-decoration: #fff;
+  text-decoration-color: aqua;
+  text-emphasis-color: red;
+  color: #fff;
+  height: 200px;
+  position: relative;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;  
+  background-color: rgb(243, 153, 35);
+  width: 400px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  padding: 20px;
+  margin: 20px;
+  border: 5px solid;
+
+}
+ 
+ li >a{
+  color: black;
+  margin: 5px;
+ }
+
+ li {
+list-style: none;
+}
+
+ul {
+  display: flex;
+}
+
+.page-section {
+ display: flex;
+ padding: 50px;
+}
+
+.content {
+  flex: 0 0 88%;
+}
+
+.page-section h2{
+  margin-right: 50px;
+  text-align: right;
+  flex: 0 0 10%;
+  border-right: 5px solid;
+  padding: 10px;
+  border-color: rgb(0, 255, 255);
+  position: relative;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.single-project{
+  border-style: solid;
+  border-color: aquamarine;
+  padding-block: 100px;
+  width: 1500px;
+  bottom: 20px;
+  flex-basis: calc(50% - 1em);
+  margin: 0.5em;
+  align-items: flex-end;
+}
+
+.single-project:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+#surf-report {
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+
+/* * {
   box-sizing: border-box;
 }
 
@@ -39,4 +168,4 @@ h6 {
 
 p {
   margin: 0;
-}
+} */
