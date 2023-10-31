@@ -23,3 +23,4 @@ Marcin Kacperski (TA)
 Steve Calla (TA)
 Benjamin Semah (Software Developer)
 Omar Ibrahim (Fellow Boot Camp Student).
+![Portfolio README Screenshot](https://github.com/Sam-Wisdoms/samwisdoms-portfolio/assets/94742747/5fd40f3c-1dc9-4e0b-8c0a-2f4e0f0087de)
