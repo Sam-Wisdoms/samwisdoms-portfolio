@@ -1,3 +1,4 @@
+/* This section is a style declaration that applies to the entire page */
 *{
   margin: 0;
   padding: 0;
@@ -5,18 +6,18 @@
   font-family:"Poppins", "sans-serif";
 }
 
+/*This is the header and hero banner style section */
 header {
   position: fix;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: rgb(0, 153, 255);
+  background: rgb(0, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background-color: red;
 }
 
 .top-nav a {
@@ -37,6 +38,10 @@ nav {
   background-color: none;
 }
 
+.top-nav :hover {
+    color: #ff1e00;
+  }
+
 body {
   height: 100vh;
   line-height: 1.5;
@@ -44,10 +49,9 @@ body {
 }
 
 .hero-banner{
-  background-image: url(assets/images/02-hero-bg.jpg);
+  background-image: url(../images/02-hero-bg.jpg);
   text-decoration: #fff;
   text-decoration-color: aqua;
-  text-emphasis-color: red;
   color: #fff;
   height: 200px;
   position: relative;
@@ -56,7 +60,7 @@ body {
 .brand-text {
   display: flex;
   flex-direction: column;  
-  background-color: rgb(243, 153, 35);
+  background-color: rgb(255, 187, 0);
   width: 400px;
   position: absolute;
   bottom: 20px;
@@ -64,7 +68,6 @@ body {
   padding: 20px;
   margin: 20px;
   border: 5px solid;
-
 }
  
  li >a{
@@ -89,6 +92,8 @@ ul {
   flex: 0 0 88%;
 }
 
+/*This is about me style section */
+
 .page-section h2{
   margin-right: 50px;
   text-align: right;
@@ -99,13 +104,18 @@ ul {
   position: relative;
 }
 
+/*This is portfolio container style section */
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
-
+.project-name {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+  width: 150px;
+}
 
 .single-project{
   border-style: solid;
@@ -124,48 +134,45 @@ ul {
 }
 
 #surf-report {
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+
+#calculator {
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#led-wall {
   background-image: url(../images/02-portfolio-1.jpg);
 }
 
-
-/* * {
-  box-sizing: border-box;
+#run-buddy {
+  background-image: url(../images/02-run-buddy.jpg);
 }
 
-nav li {
-  align-items: ;
-
+#pastel-puzzle {
+  background-image: url(../images/02-portfolio-3.jpg);
 }
 
-ul {
-
+/* This is footer style section */
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: none;
 }
 
-header .nav ul li {
-  list-style: none;
+.contact :hover{
+  color: #00ccff;
+  background: #ff00ff;
 }
 
-ul li a {
-
+/* Media query declaration for screens that are 600px wide or less, to make the menu links stack on top of each other instead of next to each other */
+@media only screen and (max-width: 600px) {
+  .top-nav a {
+    float: none;
+    width: 100%
+  }
 }
 
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-} */
