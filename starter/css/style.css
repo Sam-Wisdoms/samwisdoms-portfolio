@@ -126,11 +126,18 @@ ul {
   flex-basis: calc(50% - 1em);
   margin: 0.5em;
   align-items: flex-end;
+
 }
 
 .single-project:first-child {
   min-height: 400px;
   flex-basis: 100%;
+}
+
+.project-container {
+  background-color: aqua;
+  width: 150px;
+  align-items: flex-start;
 }
 
 #surf-report {

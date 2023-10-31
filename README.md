@@ -12,4 +12,11 @@ Thank you for vising my portfolio page.
 Please feel free to contact me and let’s discuss about how bringing my skills on board your team can will support to deliver great value. 
 Best regards, Sam-Wisdoms Amenyenu.
 
-This is my personal portfolio page
+
+Credits:
+Mila Hose (Instructor)
+Pratikto Ariestyadi (Instructor)
+Marcin Kacperski (TA)
+Steve Calla (TA)
+Benjamin Semah (Software Developer)
+Omar Ibrahim (Fellow Boot Camp Student).
