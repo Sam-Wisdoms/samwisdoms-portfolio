@@ -12,6 +12,9 @@ Thank you for vising my portfolio page.
 Please feel free to contact me and let’s discuss about how bringing my skills on board your team can will support to deliver great value. 
 Best regards, Sam-Wisdoms Amenyenu.
 
+Project Repository Link: https://github.com/Sam-Wisdoms/samwisdoms-portfolio
+
+Deployed Project Link: https://sam-wisdoms.github.io/samwisdoms-portfolio/
 
 Credits:
 Mila Hose (Instructor)
