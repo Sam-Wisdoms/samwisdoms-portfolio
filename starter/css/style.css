@@ -114,7 +114,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   background-color: aqua;
-  width: 150px;
+  width: 180px;
 }
 
 .single-project{
@@ -140,25 +140,32 @@ ul {
   align-items: flex-start;
 }
 
-#surf-report {
-  background-image: url(../images/02-portfolio-4.jpg);
+#password-generator {
+  background-image: url(../images/password-generator.png);
 }
 
-#calculator {
+#hero {
+  background-image: url(../images/hero.png);
+}
+
+#console-finances {
   background-image: url(../images/02-portfolio-2.jpg);
 }
 
-#led-wall {
-  background-image: url(../images/02-portfolio-1.jpg);
+#stfg {
+  background-image: url(../images/stfg.png);
 }
 
-#run-buddy {
-  background-image: url(../images/02-run-buddy.jpg);
+#michelle-cole {
+  background-image: url(../images/michelle-logo.jpg);
 }
 
-#pastel-puzzle {
-  background-image: url(../images/02-portfolio-3.jpg);
-}
+
+
+
+
+
+
 
 /* This is footer style section */
 .contact {
