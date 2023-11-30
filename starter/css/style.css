@@ -109,6 +109,7 @@ ul {
 .projects-container {
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid black;
 }
 
 .project-name {
@@ -139,10 +140,14 @@ ul {
   background-color: aqua;
   width: 150px;
   align-items: flex-start;
+  
 }
 
 #password-generator {
-  background-image: url(../images/password-generator.png);
+  background-image: url(../images/password-generator1.png);
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center;
 }
 
 #hero {
@@ -155,10 +160,14 @@ ul {
 
 #stfg {
   background-image: url(../images/stfg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #michelle-cole {
   background-image: url(../images/michelle-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -175,11 +184,12 @@ ul {
   width: 100%;
   justify-content: space-evenly;
   background-color: none;
+  font-size: large;
 }
 
 .contact :hover{
-  color: black;
-  background: 0 255 255;
+  color: rgb(87, 133, 180);
+  background-color: antiquewhite 0 255 255;
 }
 
 /* Media query declaration for screens that are 600px wide or less, to make the menu links stack on top of each other instead of next to each other */
